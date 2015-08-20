@@ -1,15 +1,13 @@
 # haruna
 the Simple Examination Service (for TECH::CAMP)
 
-## Project Map
-
-#### What is haruna?
+## What is haruna?
   haruna is the Simple Examination Service. You can create and take exam at here. In addition, answerer's name will add to the Slack's channel topic automatically when answer posted.
 
-#### Why I made haruna?
+## Why I made haruna?
   The firm which I joining as a intern provides weekly test for the interns. Though it is fruitful, too much costs for everybody. haruna will reduce great deal of costs of creating and taking test at TECH::CAMP.
 
-#### The Profit
+## The Profit
   So, why you use haruna?
 
   now
