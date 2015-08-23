@@ -1,0 +1,37 @@
+%footer.text-center
+  .footer-above
+    .container
+      .row
+        .footer-col.col-md-4
+          %h3 Creater
+          %p
+            = succeed "." do
+              %a{ href: "https://github.com/ksuematsu" } wEather68(k.suematsu)
+            %br 23years old, Japanese
+        .footer-col.col-md-4
+          %h3 Contact
+          %ul.list-inline
+            %li
+              %a.btn-social.btn-outline{ href: "https://twitter.com/68wEather" }
+                %img{ alt: "twitter", src: "assets/twitter.png" }
+            %li
+              %a.btn-social.btn-outline{ href: "https://github.com/ksuematsu" }
+                %img{ alt: "github", src: "assets/github.png" }
+            %li
+              %a.btn-social.btn-outline{ href: "#" }
+                %img{ alt: "e-mail", src: "assets/mail.png" }
+        .footer-col.col-md-4
+          %h3 Design
+          %p
+            haruna uses Freelance which is open source Bootstrap theme created by
+            = succeed "." do
+              %a{ href: "http://startbootstrap.com" } Start Bootstrap
+  .footer-below
+    .container
+      .row
+        .col-lg-12
+          Copyright &copy; wEather68
+/ Scroll to Top Button (Only visible on small and extra-small screen sizes)
+.scroll-top.page-scroll.visible-xs.visible-sm
+  %a.btn.btn-primary{ href: "#page-top" }
+    %i.fa.fa-chevron-up
