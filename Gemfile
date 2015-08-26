@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bcrypt'
+gem 'devise'
 gem 'haml-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
@@ -27,5 +28,6 @@ group :development, :test do
 end
 
 group :development do
+  gem 'erb2haml'
   # gem 'capistrano-rails'
 end
