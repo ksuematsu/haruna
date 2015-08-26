@@ -85,7 +85,7 @@ header {
     background: #EE8374;
 }
 
-header .container {
+header .container , #exam-index .container {
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -220,7 +220,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(192,192,192,0.3);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -457,3 +457,10 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+#exam-index {
+    text-align: center;
+    color: #EE8374;
+    background: #fff;
+}
+
