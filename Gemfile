@@ -9,7 +9,6 @@ gem 'mysql2'
 gem 'rails', '4.2.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer', platforms: :ruby
-gem 'turbolinks'
 
 group :production do
   gem 'unicorn'
