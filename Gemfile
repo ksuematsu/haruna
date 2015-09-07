@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bcrypt'
+gem 'devise'
 gem 'haml-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
@@ -8,7 +9,6 @@ gem 'mysql2'
 gem 'rails', '4.2.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer', platforms: :ruby
-gem 'turbolinks'
 
 group :production do
   gem 'unicorn'
@@ -27,5 +27,6 @@ group :development, :test do
 end
 
 group :development do
+  gem 'erb2haml'
   # gem 'capistrano-rails'
 end
