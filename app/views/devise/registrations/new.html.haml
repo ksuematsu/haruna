@@ -12,7 +12,7 @@
             /   = f.file_field :avatar
             .field
               %h4 User Name
-              = f.text_field :user_name, autofocus: true, class: "form-control"
+              = f.text_field :user_name, autofocus: true, class: "form-control", null: false
             .field
               %h4 email
               = f.email_field :email, autofocus: true, class: "form-control"
