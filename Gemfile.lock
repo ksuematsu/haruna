@@ -63,6 +63,7 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    gravtastic (3.2.6)
     haml (4.0.7)
       tilt
     haml-rails (0.9.0)
@@ -185,6 +186,7 @@ DEPENDENCIES
   coffee-rails
   devise
   erb2haml
+  gravtastic
   haml-rails
   jbuilder
   jquery-rails

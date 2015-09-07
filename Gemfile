@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bcrypt'
 gem 'devise'
+gem 'gravtastic'
 gem 'haml-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
