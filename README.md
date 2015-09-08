@@ -1,4 +1,7 @@
 # haruna
+
+![Alt text](/assets/haruna2.png)
+
 the Simple Examination Service (for TECH::CAMP)
 
 ## What is haruna?
