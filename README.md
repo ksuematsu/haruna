@@ -1,6 +1,6 @@
 # haruna
 
-![Alt text](/assets/haruna2.png)
+![haruna](http://i.imgur.com/JjJD8XR.png)
 
 the Simple Examination Service (for TECH::CAMP)
 
