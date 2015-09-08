@@ -1,0 +1,39 @@
+.column.one-fourth.vcard
+  %a.vcard-avatar.tooltipped.tooltipped-s{ "aria-label" => "Change Your Avatar", href: "https://en.gravatar.com/" }
+    = image_tag @user.gravatar_url(size: 230)
+  %h1.vcard-names
+    %span.vcard-fullname
+      = @user.user_name
+  %ul.vcard-details
+    %li.vcard-detail
+      %span.octicon.octicon-organization
+      幻影集団
+    %li.vcard-detail
+      %span.octicon.octicon-location
+      San Jose
+    %li.vcard-detail
+      %span.octicon.octicon-mail
+      #{ @user.email }
+    %li.vcard-detail
+      %span.octicon.octicon-link
+      DHH.com
+    %li.vcard-detail
+      %span.octicon.octicon-clock
+      Joined on #{@user.created_at.strftime("%b, %d %Y")}
+  %div.vcard-stats
+    %a.vcard-stat{ href: "#" }
+      %strong.vcard-stat-count
+        0
+      %span.text-muted
+        Answered
+    %a.vcard-stat{ href: "#" }
+      %strong.vcard-stat-count
+        22
+      %span.text-muted
+        Created
+    %a.vcard-stat{ href: "#" }
+      %strong.vcard-stat-count
+        3233
+      %span.text-muted
+        Total Examinee
+
