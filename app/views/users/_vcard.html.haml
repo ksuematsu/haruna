@@ -1,5 +1,5 @@
 .column.one-fourth.vcard
-  %a.vcard-avatar.tooltipped.tooltipped-s{ "aria-label" => "Change Your Avatar" }
+  %a.vcard-avatar.tooltipped.tooltipped-s{ "aria-label" => "Change Your Avatar", href: "https://en.gravatar.com/" }
     = image_tag @user.gravatar_url(size: 230)
   %h1.vcard-names
     %span.vcard-fullname
