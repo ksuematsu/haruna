@@ -8,4 +8,7 @@ class User < ActiveRecord::Base
 
   include Gravtastic
   gravtastic default: "identicon"
+
+  has_many :exams
+  has_many :answers
 end
