@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   resources :top,   only: [:index]
 
-  resources :exams, only: [:index]
+  resources :exams, only: [:index, :new]
 
   root 'exams#index'
 end
